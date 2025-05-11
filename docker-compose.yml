@@ -1,0 +1,27 @@
+services:
+  ledmedia-landing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ledmedia-landing
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      # Add your email configuration here
+      - EMAIL_HOST=${EMAIL_HOST}
+      - EMAIL_PORT=${EMAIL_PORT}
+      - EMAIL_SECURE=${EMAIL_SECURE}
+      - EMAIL_USER=${EMAIL_USER}
+      - EMAIL_PASS=${EMAIL_PASS}
+      - RECIPIENT_EMAIL=${RECIPIENT_EMAIL}
+    volumes:
+      # For persistent logs if needed
+      - ./logs:/app/logs
+    networks:
+      - ledmedia-network
+
+networks:
+  ledmedia-network:
+    driver: bridge 

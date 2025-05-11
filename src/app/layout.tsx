@@ -18,14 +18,14 @@ const poppins = Poppins({
 
 // SEO metadata
 export const metadata: Metadata = {
-  title: 'LEDMedia - LED Рішення для Будь-якого Простору',
-  description: 'LEDMedia пропонує індивідуальні LED рішення для реклами, заходів та інших локацій. Перетворіть свій простір за допомогою сучасних LED-технологій.',
-  keywords: "LED screens, digital signage, outdoor advertising, LED displays, video walls",
+  title: 'LEDMedia - Інноваційні 3D Рекламні Рішення',
+  description: 'LEDMedia пропонує інноваційні 3D рекламні рішення, голографічні вентилятори та консультації. Зробіть вашу рекламу яскравою та незабутньою.',
+  keywords: "Реклама, Украина, Банерная реклама, ЛедМедіа, LedMedia, краща реклма, 3Д реклама, яскрава реклама, Лучшая реклама, реклама метро, реклама торговые центры, Реклама Харьков, реклама Киев, Одесса, Львов 3Д реклама, Банерна реклама, Реклама метро, торгові центри, Реклама в Україні, голографічні вентилятори",
   robots: "index, follow",
   metadataBase: new URL('https://ledmedia.example.com'),
   openGraph: {
-    title: "LEDMedia - LED Рішення для Будь-якого Простору",
-    description: 'LEDMedia пропонує індивідуальні LED рішення для реклами, заходів та інших локацій. Перетворіть свій простір за допомогою сучасних LED-технологій.',
+    title: "LEDMedia - Інноваційні 3D Рекламні Рішення",
+    description: 'LEDMedia пропонує інноваційні 3D рекламні рішення, голографічні вентилятори та консультації. Зробіть вашу рекламу яскравою та незабутньою.',
     url: "https://ledmedia.example.com",
     siteName: "LEDMedia",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "LEDMedia LED Solutions",
+        alt: "LEDMedia 3D Advertising Solutions",
       }
     ],
     locale: "uk_UA",
@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk" className={`${inter.variable} ${poppins.variable}`}>
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning>
         {children}
       </body>
     </html>
