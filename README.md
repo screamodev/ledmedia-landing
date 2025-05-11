@@ -20,6 +20,29 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Email Configuration
+
+To enable the contact form functionality, you need to set up email credentials:
+
+1. Create a `.env.local` file in the root directory with the following variables:
+
+```
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_SECURE=false
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+RECIPIENT_EMAIL=info@ledmedia.ua
+```
+
+2. If using Gmail, you'll need to create an App Password:
+   - Go to your Google Account > Security
+   - Enable 2-Step Verification if not already enabled
+   - Create an App Password for "Mail"
+   - Use the generated password as EMAIL_PASS
+
+3. For production deployment, add these environment variables to your hosting provider.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

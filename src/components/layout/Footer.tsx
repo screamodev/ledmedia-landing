@@ -17,25 +17,9 @@ const Footer = () => {
             </p>
             <div className="flex space-x-3 mt-4">
               <a 
-                href="#" 
-                className="bg-gray-800 hover:bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
-                aria-label="Facebook"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-                </svg>
-              </a>
-              <a 
-                href="#" 
-                className="bg-gray-800 hover:bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
-                aria-label="Instagram"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                </svg>
-              </a>
-              <a 
-                href="#" 
+                href="https://www.youtube.com/@LLC.LedMedia" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
                 aria-label="YouTube"
               >
@@ -44,7 +28,9 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="#" 
+                href="https://t.me/ledMedia_ua" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gray-800 hover:bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center transition-colors"
                 aria-label="Telegram"
               >
@@ -63,10 +49,10 @@ const Footer = () => {
                 <Link href="#головна" className="hover:text-white transition-colors">Головна</Link>
               </li>
               <li>
-                <Link href="#кейси" className="hover:text-white transition-colors">Наші кейси</Link>
+                <Link href="#локації" className="hover:text-white transition-colors">Наші локації</Link>
               </li>
               <li>
-                <Link href="#локації" className="hover:text-white transition-colors">Локації</Link>
+                <Link href="#клієнти" className="hover:text-white transition-colors">Наші клієнти</Link>
               </li>
               <li>
                 <Link href="#про-нас" className="hover:text-white transition-colors">Про нас</Link>
@@ -85,13 +71,13 @@ const Footer = () => {
                 <Link href="#" className="hover:text-white transition-colors">LED-екрани</Link>
               </li>
               <li>
+                <Link href="#" className="hover:text-white transition-colors">3D LED-реклама</Link>
+              </li>
+              <li>
                 <Link href="#" className="hover:text-white transition-colors">Медіафасади</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">Рекламні дисплеї</Link>
-              </li>
-              <li>
-                <Link href="#" className="hover:text-white transition-colors">Інтерактивні інсталяції</Link>
+                <Link href="#" className="hover:text-white transition-colors">Цифрові рекламні дисплеї</Link>
               </li>
               <li>
                 <Link href="#" className="hover:text-white transition-colors">Сервісне обслуговування</Link>
@@ -108,7 +94,7 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span>вул. Хрещатик, 15, офіс 201, Київ, 01001</span>
+                <span>Харків, Людвіга Свободи 30/Б</span>
               </p>
               <p className="flex items-start gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

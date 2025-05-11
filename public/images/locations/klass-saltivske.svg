@@ -1,0 +1,6 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#121820"/>
+  <text x="400" y="280" font-family="Arial" font-size="36" text-anchor="middle" fill="#ffffff">Супермаркет "Класс"</text>
+  <text x="400" y="330" font-family="Arial" font-size="24" text-anchor="middle" fill="#ffffff">Салтівське шосе</text>
+  <text x="400" y="380" font-family="Arial" font-size="20" text-anchor="middle" fill="#10b3cc">Placeholder Image</text>
+</svg> 

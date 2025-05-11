@@ -76,16 +76,16 @@ const Header = () => {
               Головна
             </Link>
             <Link 
-              href="#кейси" 
-              className={`${styles.navLink} ${scrolled ? styles.navLinkDark : styles.navLinkWhite}`}
-            >
-              Кейси
-            </Link>
-            <Link 
               href="#локації" 
               className={`${styles.navLink} ${scrolled ? styles.navLinkDark : styles.navLinkWhite}`}
             >
               Наші локації
+            </Link>
+            <Link 
+              href="#клієнти" 
+              className={`${styles.navLink} ${scrolled ? styles.navLinkDark : styles.navLinkWhite}`}
+            >
+              Наші клієнти
             </Link>
             <Link 
               href="#про-нас" 
@@ -142,18 +142,18 @@ const Header = () => {
             Головна
           </Link>
           <Link 
-            href="#кейси"
-            className={styles.mobileNavLink}
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Кейси
-          </Link>
-          <Link 
             href="#локації"
             className={styles.mobileNavLink}
             onClick={() => setIsMenuOpen(false)}
           >
             Наші локації
+          </Link>
+          <Link 
+            href="#клієнти"
+            className={styles.mobileNavLink}
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Наші клієнти
           </Link>
           <Link 
             href="#про-нас"
